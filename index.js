@@ -14,6 +14,16 @@ class UI {
 		projects.forEach((project) => UI.addProject(project));
 	}
 
+	static renderUpdate() {
+		const buttons = document.querySelectorAll('[data-app]');
+
+		buttons.forEach((button) => {
+			button.addEventListener('click', function (e) {
+				UI.visitSite(e.target.getAttribute('data-app'));
+			});
+		});
+	}
+
 	static addProject(project) {
 		const projectList = document.querySelector('.button-container');
 
@@ -51,8 +61,7 @@ class UI {
 	}
 
 	static visitSite(address) {
-		console.log(address);
-		// location.href = `./${address}/index.html`;
+		location.href = `./${address}/index.html`;
 	}
 }
 
@@ -85,7 +94,10 @@ class Storage {
 }
 
 //Displays the stored project cards
-window.addEventListener('DOMContentLoaded', UI.displayProjects);
+window.addEventListener('DOMContentLoaded', function () {
+	UI.displayProjects();
+	UI.renderUpdate();
+});
 
 const addButton = document.querySelector('#add');
 const removeButton = document.querySelector('#delete');
@@ -115,6 +127,8 @@ document.querySelector('#project-form').addEventListener('submit', (e) => {
 		UI.clearFields();
 
 		UI.removePopup();
+		// Update added list
+		UI.renderUpdate();
 	}
 });
 
