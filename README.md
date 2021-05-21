@@ -8,7 +8,7 @@ A simple project compiler webpage application.
 
 ## Description
 
-A simple project compiler webpage application that is created using HTML, CSS, and JavaScript. Created to compile simple prijects that I do to skill up. A simple create-read-delete application that uses localStorage to store "project cards" to compile projects.
+A simple project compiler webpage application that is created using HTML, CSS, and JavaScript. Created to compile simple projects that I do to skill up. A simple create-read-delete application that uses localStorage to store "project cards" to compile projects.
 
 ### Mobile Display
 
