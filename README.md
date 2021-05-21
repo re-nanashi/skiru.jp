@@ -1,35 +1,34 @@
-![demo](./src/img/demo.png?raw=true)
+![demo](./img/demo.png?raw=true)
 
-# Calculator
+# Skiru.js
 
-A simple webpage calculator application
+A simple project compiler webpage application.
 
-**Link To Demo**: https://re-nanashi.github.io/calculator/
+**Link To Demo**: https://re-nanashi.github.io/skiru.jp/
 
 ## Description
 
-A simple calculator application webpage that uses HTML, CSS, and Javascript. It runs a calculator application that has functions that is inspired from the standard iOS calculator. It is also made to be responsive to cater all devices so that all users can play no matter what device is used. Users can toggle dark mode.
+A simple project compiler webpage application that is created using HTML, CSS, and JavaScript. Created to compile simple prijects that I do to skill up. A simple create-read-delete application that uses localStorage to store "project cards" to compile projects.
 
 ### Mobile Display
 
-<img src="./src/img/demo-mobile.png" height="700">
+<img src="./img/demo-mobile.png" height="700">
 
 ### Things that I learned
 
-- Was introduced about design patterns because of spaghetti code.
-- Learned some concepts about clean code.
-- Learned how to implement dark mode on webpages.
-- Learned alot about code structure
+- Learned about dynamic rendering.
+- Learned some concepts on modules.
+- Learned some OOP concepts and saving on localStorage
 
 ### Things TODO
 
-- Refactor in the future for a simpler and understanble design.
-- Current practice code is on temp folder.
+- Refactor in the future for a simpler and understandble design.
+- Add some projects.
 
 ## Development
 
 1. Clone the project <br>
-   `git clone https://github.com/re-nanashi/calculator.git`
+   `git clone https://github.com/re-nanashi/skiru.jp.git
 
 2. Go the directory and run through live server
 
@@ -37,9 +36,3 @@ A simple calculator application webpage that uses HTML, CSS, and Javascript. It 
 
 John Reymar I. Fabro(Me)
 [@juanfab.af](https://www.instagram.com/juanfab.af/)
-
-## Acknowledgments
-
-Design inspiration, icons, etc.
-
-- [Color design](https://www.pinterest.ph/pin/605874956114489050/)
