@@ -1,4 +1,4 @@
-![demo](./img/demo.png?raw=true)
+![demo](./src/img/demo.png?raw=true)
 
 # Skiru.js
 
@@ -12,7 +12,7 @@ A simple project compiler webpage application that is created using HTML, CSS, a
 
 ### Mobile Display
 
-<img src="./img/demo-mobile.png" height="700">
+<img src="./src/img/demo-mobile.png" height="700">
 
 ### Things that I learned
 
